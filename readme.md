@@ -4,15 +4,15 @@ UE : Moteur graphique et Audio
 Carpentier Andréa M2 ILJ
 Année 2020-2021
 
-## Compilation et Exécution
+# Compilation et Exécution
 
 Nécessite SFML 2.5.1\
 Le projet comporte un makefile, utilisez juste la commande “ make “
 
 Puis tapez “ ./jeu “
-##Contenu du projet
+# Contenu du projet
 
-#Fichiers :\
+## Fichiers :\
 * Displayable.hpp et Displayable.cc
 * Plateforme.hpp et Plateforme.cc
 * Personnage.hpp et Personnage.cc
@@ -25,20 +25,20 @@ Puis tapez “ ./jeu “
 * MakeFile
 * ReadMe.pdf
 
-#Dossiers :\
+## Dossiers :\
 * Font : contient la police utilisez pour les text.
 * Images : contient les sprites du personnage, des décors, des élément UI
 * Sons : contient les éléments sonores et musique de fond.
 
-##Contrôle
+# Contrôle
 
-# Menu :
+## Menu :
 
 * Touche 1 du pad numérique : lance le niveau 1
 * Touche 2 du pad numérique : lance le niveau 2
 * Touche 3 du pad numérique : lance le niveau 3
 
-# Dans un niveau :
+## Dans un niveau :
 
 * Flèche de droite : déplacement du personnage vers la droite
 * Flèche de gauche : déplacement du personnage vers la gauche
@@ -47,7 +47,7 @@ Puis tapez “ ./jeu “
 * Echap : affichage du panel pause
 * Touche N : ( à la fin du niveau ) lancement du niveau suivant
 
-# En pause, dans un niveau :
+## En pause, dans un niveau :
 
 * Echap : retour menu
 * Entrée : reprendre le niveau
